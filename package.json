@@ -16,7 +16,5 @@
     "url": "https://github.com/pdcastano/NodeApi/issues"
   },
   "homepage": "https://github.com/pdcastano/NodeApi#readme",
-  "dependencies": {
-    "express": "^4.16.2"
-  }
+  "dependencies": {}
 }
