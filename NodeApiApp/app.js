@@ -13,7 +13,7 @@ var users = require('./routes/users');
 var catalog = require('./routes/catalog');
 
 //Mongo data base connection
-var mongoDB = 'mongodb://admin:admin@ds153958.mlab.com:53958/pdc_library';
+var mongoDB = process.env.MONGODB_URI || 'mongodb://admin:admin@ds153958.mlab.com:53958/pdc_library';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
